@@ -42,7 +42,7 @@ _Instalar MongoDB_
 _Para Instalar el Back-end_
 
 ```
-$ yarm install
+$ yarn install
 $ yarn start
 ```
 
