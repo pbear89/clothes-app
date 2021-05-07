@@ -7,7 +7,7 @@ const data = {
             image:'./images/p1_1.jpg',
             price: 240,
             brand:'García Dos Ramos',
-            rating:4.0,
+            rating:0.5,
             description:'Outfit de dos piezas espalda al aire floral Bohemio',
         },
         {
@@ -17,7 +17,7 @@ const data = {
             image:'./images/p1_1.jpg',
             price: 240,
             brand:'García Dos Ramos',
-            rating:4.0,
+            rating:2.6,
             description:'Outfit de dos piezas espalda al aire floral Bohemio',
         },
         {
@@ -27,7 +27,7 @@ const data = {
             image:'./images/p1_1.jpg',
             price: 240,
             brand:'García Dos Ramos',
-            rating:4.0,
+            rating:4.8,
             description:'Outfit de dos piezas espalda al aire floral Bohemio',
         },
         {
@@ -37,7 +37,7 @@ const data = {
             image:'./images/p1_1.jpg',
             price: 240,
             brand:'García Dos Ramos',
-            rating:4.0,
+            rating:3.5,
             description:'Outfit de dos piezas espalda al aire floral Bohemio',
         },
         {
@@ -47,7 +47,7 @@ const data = {
             image:'./images/p1_1.jpg',
             price: 240,
             brand:'García Dos Ramos',
-            rating:4.0,
+            rating:5.0,
             description:'Outfit de dos piezas espalda al aire floral Bohemio',
         },
         {
@@ -57,7 +57,7 @@ const data = {
             image:'./images/p1_1.jpg',
             price: 240,
             brand:'García Dos Ramos',
-            rating:4.0,
+            rating:4.5,
             description:'Outfit de dos piezas espalda al aire floral Bohemio',
         },
     ]
