@@ -2,7 +2,7 @@
 node_modules
 /.pnp
 .pnp.js
-images
+images/*.jpg
 
 # testing
 /coverage
@@ -24,3 +24,4 @@ package-lock.json
 
 .env
 /uploads/*.jpg
+frontend/public/images/*.jpg
