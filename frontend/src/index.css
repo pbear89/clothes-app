@@ -44,16 +44,19 @@ h1 {
   padding: 1rem 0;
 }
 h2 {
+  /* color: #0F1111; */
   font-size: 1.6rem;
   padding: 1rem 0;
 }
 
-a {
-  text-decoration: none;
+a, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: #397db9;
 }
-a:hover {
-  color: #ff8000;
+h2 a:hover {
+  color: #ff8000!important;
 }
+
 ul {
   padding: 0;
   margin: 0;
@@ -192,6 +195,7 @@ img.medium {
 }
 img.large {
   width: 100%;
+  max-width: 35em;
 }
 
 /* Card */
