@@ -14,8 +14,9 @@ const Products = (props) => {
         <a href={`/product/${product._id}`}>
           <h2>{product.name}</h2>
         </a>
-        <Ratings 
-          rating={product.rating}          
+        <Ratings
+          rating={product.rating}
+          numReviews={product.numReviews}
         />
         <div className="price">${product.price}</div>
       </div>
