@@ -48,10 +48,9 @@ h2 {
   font-size: 1.6rem;
   padding: 1rem 0;
 }
-
 a, a:active, a:link, a:visited {
     text-decoration: none;
-    color: #397db9;
+    color: #397db9; 
 }
 h2 a:hover {
   color: #ff8000!important;
@@ -98,7 +97,7 @@ button.small {
 }
 /* Header */
 header a {
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 1rem;
 }
 a.brand {
@@ -220,7 +219,8 @@ img.large {
   margin: 0.1rem;
 }
 .rating span:last-child {
-  color: #e29c03;
+  color: #3d3d3d;
+  margin: 0.4rem;
 }
 /* Alert */
 .loading {

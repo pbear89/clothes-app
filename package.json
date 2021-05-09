@@ -1,0 +1,27 @@
+{
+  "name": "clothes-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "_Proyecto de Website completamente funcional, esteticamente similar a Amazon. Realizado utilizando MERN (MongoDB, Express.js, React.js, Node.js)._",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbear89/clothes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbear89/clothes-app/issues"
+  },
+  "homepage": "https://github.com/pbear89/clothes-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
