@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import MessageBox from "../components/MessageBox";
-import { addToCart } from "../functions/cartFunctions";
+import { addToCart, removeFromCart } from "../functions/cartFunctions";
 
 const CartScreen = (props) => {
   const productId = props.match.params.id;
@@ -21,7 +21,7 @@ const CartScreen = (props) => {
   }, [dispatch, productId, qty]);
 
   const removeFromCartHandler = (id) => {
-    //delete action
+    dispatch(removeFromCart(id))
   };
   const checkoutHandler = () =>{
     props.history.push('/signin?redirect=shipping');
@@ -69,10 +69,11 @@ const CartScreen = (props) => {
                   <div>${item.price}</div>
                   <div>
                     <button
-                      type="button warning"
+                      type="button"
                       onClick={() => removeFromCartHandler(item.product)}
+                      className="danger"
                     >
-                      Remove
+                      <i class="fa fa-times"></i> Remove
                     </button>
                   </div>
                 </div>
