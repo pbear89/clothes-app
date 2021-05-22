@@ -15,14 +15,17 @@ const Header = () => {
           </Link>
         </div>
         <div>
-          <Link to="/cart">Cart
-          {cartItems.length > 0 && (
-            <span className="badge">{cartItems.length}</span>
-          )}
+          <Link to="/cart">
+            <i class="fa fa-shopping-cart"></i> Cart
+            {cartItems.length > 0 && (
+              <span className="badge">{cartItems.length}</span>
+            )}
           </Link>
-          <Link to="/signin">Sign In</Link>
+          <Link to="/signin">
+            <i class="fa fa-sign-in"></i> Sign In
+          </Link>
         </div>
-      </header> 
+      </header>
     );
 }
 
