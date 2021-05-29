@@ -19,7 +19,6 @@ const data = {
 
   products: [
     {
-      _id: '1',
       name: 'Outfit Floral Bohemio',
       category: 'Damas',
       image: '/images/p1_1.jpg',
@@ -31,7 +30,6 @@ const data = {
       description: 'Outfit de dos piezas espalda al aire floral Bohemio',
     },
     {
-      _id: '2',
       name: 'Falda Drapeado Bohemio',
       category: 'Damas',
       image: '/images/p2_1.jpg',
@@ -43,7 +41,6 @@ const data = {
       description: 'Falda drapeado Floral Bohemio',
     },
     {
-      _id: '3',
       name: 'Falda con Volante Rígido Bohemio',
       category: 'Damas',
       image: '/images/p3_1.jpg',
@@ -55,7 +52,6 @@ const data = {
       description: 'Falda volante rígido monocolor bohemio',
     },
     {
-      _id: '4',
       name: 'Top a Rayas Bohemio',
       category: 'Damas',
       image: '/images/p4_1.jpg',
@@ -67,7 +63,6 @@ const data = {
       description: 'Outfit de dos piezas espalda al aire floral Bohemio',
     },
     {
-      _id: '5',
       name: 'Braga/Mono Liso Bohemio',
       category: 'Damas',
       image: '/images/p5_1.jpg',
@@ -79,7 +74,6 @@ const data = {
       description: 'Braga/Mono cut-out liso Bohemio',
     },
     {
-      _id: '6',
       name: 'Braga Guigán Casual',
       category: 'Jovenes',
       image: '/images/c1_1.jpg',
@@ -91,7 +85,6 @@ const data = {
       description: 'Lono para niña pequeña cremayera Guigán casual',
     },
     {
-      _id: '7',
       name: 'Falda con Malla Ribete',
       category: 'Jovenes',
       image: '/images/c2_1.jpg',
@@ -103,7 +96,6 @@ const data = {
       description: 'Falda con malla ribete en forma de lechuga dorada',
     },
     {
-      _id: '8',
       name: 'Traje de Vestir con Rayas',
       category: 'Jovenes',
       image: '/images/c3_1.jpg',
@@ -115,7 +107,6 @@ const data = {
       description: 'Traje de vestir camisa con lazo de rayas con short',
     },
     {
-      _id: '9',
       name: 'Shot bajo',
       category: 'Jovenes',
       image: '/images/c4_1.jpg',
@@ -127,7 +118,6 @@ const data = {
       description: 'Short Bajo con Doblez',
     },
     {
-      _id: '10',
       name: 'Set Cama Verde',
       category: 'Hogar',
       image: '/images/h1_1.jpg',
@@ -139,7 +129,6 @@ const data = {
       description: 'Set de Cama Unicolor / 100% Poliester',
     },
     {
-      _id: '11',
       name: 'Set Funda Edredón a Rayas',
       category: 'Hogar',
       image: '/images/h2_1.jpg',
@@ -151,7 +140,6 @@ const data = {
       description: 'Ser funda edredón con patrón de rayas',
     },
     {
-      _id: '12',
       name: 'Set Cama Negro',
       category: 'Hogar',
       image: '/images/h3_1.jpg',
@@ -163,7 +151,6 @@ const data = {
       description: 'Set de Cama Unicolor / 100% Poliester',
     },
     {
-      _id: '13',
       name: 'Set Sabana Turquesa',
       category: 'Hogar',
       image: '/images/h4_1.jpg',
@@ -175,7 +162,6 @@ const data = {
       description: 'Set de Sabana Unicolor / 100% Poliester',
     },
     {
-      _id: '14',
       name: 'Frasco Hermetico',
       category: 'Hogar',
       image: '/images/h5_1.jpg',
@@ -187,7 +173,6 @@ const data = {
       description: 'Almacenamiento de comida protector',
     },
     {
-      _id: '15',
       name: 'Almacenamiento de Cocina',
       category: 'Hogar',
       image: '/images/h6_1.jpg',
@@ -199,7 +184,6 @@ const data = {
       description: 'Almacenamiento para cocina y alimentos',
     },
     {
-      _id: '16',
       name: 'Cucharón Colador ',
       category: 'Hogar',
       image: '/images/h7_1.jpg',
@@ -212,7 +196,6 @@ const data = {
         'Herramienta orada negra para vapor / Cucharón mejorado acanalado con filtro, colador',
     },
     {
-      _id: '17',
       name: 'Set de 3 Cajas de Almacenaje',
       category: 'Hogar',
       image: '/images/h8_1.jpg',
@@ -224,7 +207,6 @@ const data = {
       description: 'Set de 3 cajas de almacenaje para ropa interior',
     },
     {
-      _id: '18',
       name: 'Almacenamiento baño',
       category: 'Hogar',
       image: '/images/h9_1.jpg',
@@ -236,7 +218,6 @@ const data = {
       description: 'Almacenamiento baño liso/ dispensador de crema dental',
     },
     {
-      _id: '19',
       name: 'Toalla de Baño',
       category: 'Hogar',
       image: '/images/h10_1.jpg',
