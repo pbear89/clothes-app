@@ -9,7 +9,7 @@ export const generateToken = (user) => {
       isAdmin: user.isAdmin,
     },
     process.env.JWT_KEY ||
-      "0pKCbw9W596ckaYBOIrVimVNyD6Dj6T4MZINsxZQZA3C0lA92G3evVv-AUqI0pZU",
+      "SOMETHING-TO-SET-AT-KEY",
     {
       expiresIn: "30d",
     }
