@@ -1,16 +1,14 @@
-
-
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Header from "./components/Header";
 import CartScreen from "./pages/CartScreen";
 import HomeScreen from "./pages/HomeScreen";
 import ProductScreen from "./pages/ProductScreen";
+import SigninScreen from "./pages/SigninScreen";
 
 
 
 function App() {
 
-  
 
   return (
     <Router>
@@ -20,7 +18,7 @@ function App() {
         <Route path="/" component={HomeScreen} exact></Route>
         <Route path="/cart/:id?" component={CartScreen}></Route>
         <Route path="/product/:id" component={ProductScreen} ></Route>
-        
+        <Route path="/signin" component={SigninScreen}></Route>
       </main>
       
       <footer className="row center">All right reserved</footer>
