@@ -8,9 +8,8 @@ export const generateToken = (user) => {
       email: user.email,
       isAdmin: user.isAdmin,
     },
-    
     process.env.JWT_KEY ||
-      "SOMETHING-TO-SET-AT-KEY", 
+      "SOMETHING-TO-SET-AT-KEY",
     {
       expiresIn: "30d",
     }
