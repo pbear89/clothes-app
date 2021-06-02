@@ -1,5 +1,6 @@
 
 
+import { useSelector } from "react-redux";
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Header from "./components/Header";
 import CartScreen from "./pages/CartScreen";
@@ -11,7 +12,6 @@ import SigninScreen from "./pages/SigninScreen";
 
 function App() {
 
-  
 
   return (
     <Router>
