@@ -2,6 +2,8 @@ import {Route, BrowserRouter as Router} from "react-router-dom";
 import Header from "./components/Header";
 import CartScreen from "./pages/CartScreen";
 import HomeScreen from "./pages/HomeScreen";
+import PaymentMethodScreen from "./pages/PaymentMethodScreen";
+import PlaceOrderScreen from "./pages/PlaceOrderScreen";
 import ProductScreen from "./pages/ProductScreen";
 import RegisterScreen from "./pages/RegisterScreen";
 import ShippingAddressScreen from "./pages/ShippingAddressScreen";
@@ -23,6 +25,8 @@ function App() {
         <Route path="/signin" component={SigninScreen}></Route>
         <Route path="/register" component={RegisterScreen}></Route>
         <Route path="/shipping" component={ShippingAddressScreen}></Route>
+        <Route path="/payment" component={PaymentMethodScreen}></Route>
+        <Route path="/placeorder" component={PlaceOrderScreen}></Route>
       </main>
       
       <footer className="row center">All right reserved</footer>
